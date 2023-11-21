@@ -1,13 +1,13 @@
 export class Singleton {
-  private static intance: Singleton;
+  private static instance: Singleton;
 
   private constructor(private version: string) {}
 
   static getInstance(version: string): Singleton {
-    if (!Singleton.intance) {
-      Singleton.intance = new Singleton(version);
+    if (!Singleton.instance) {
+      Singleton.instance = new Singleton(version);
     }
-    return Singleton.intance;
+    return Singleton.instance;
   }
 }
 
