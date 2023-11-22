@@ -7,3 +7,4 @@ Curso de Patrones de Diseño Creacionales en JavaScript (Platzi)
 Patrones usados:
 
 - Singleton
+- Factory

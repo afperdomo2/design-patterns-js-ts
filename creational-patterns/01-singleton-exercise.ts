@@ -48,7 +48,7 @@ const ClientApp = () => {
   console.info('🚀ClientApp:\n');
 
   /**
-   * A pesar de que se intentan crear 4 carror, el sistema solo permite
+   * A pesar de que se intentan crear 4 carros, el sistema solo permite
    * crear un carro por cliente, lo que quiere decir que los 2 carros de
    * Pedro, son el mismo
    */
